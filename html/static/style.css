@@ -1,0 +1,62 @@
+*{
+	margin:0;
+}
+
+
+.fold{
+	min-height: 100vh;
+	min-width: 100%;
+	background-color: #F9F4EF;
+	border: 1px solid rgba(0,0,0,0.16);
+}
+
+
+#logo{
+	height: 80vh;
+	max-width: 70%;
+	margin: 15px auto;
+}
+
+.h{
+font-family: "Oswald";
+font-size: 250%;
+color: #FA6803;
+}
+
+.p{
+margin-top:2%;
+font-family: "Roboto Slab";
+font-size: 140%;
+color: #000000;
+line-height: 170%;
+}
+
+
+.tile{
+	width: 700px;
+	max-width: 80%;
+	text-align: center;
+	margin: 12vh auto;
+}
+
+
+#code{
+	min-width:30%;
+	margin: 20vh auto;
+}
+
+#contact{
+	min-width:30%;
+	margin: 2vh auto;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.tile{
+		width: 600px;
+		max-width: 80%;
+		text-align: center;
+		margin: 8vh auto;
+	}
+}
+
