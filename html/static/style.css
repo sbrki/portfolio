@@ -19,14 +19,14 @@
 
 .h{
 font-family: "Oswald";
-font-size: 250%;
+font-size: 200%;
 color: #FA6803;
 }
 
 .p{
 margin-top:2%;
 font-family: "Roboto Slab";
-font-size: 140%;
+font-size: 100%;
 color: #000000;
 line-height: 170%;
 }
@@ -50,13 +50,47 @@ line-height: 170%;
 	margin: 2vh auto;
 }
 
-@media screen and (max-width: 1000px) {
-
+/* MOBILE (NOT TABLETS) */
+@media screen and (max-width: 699px) and (min-width: 0px) {
 	.tile{
 		width: 600px;
 		max-width: 80%;
 		text-align: center;
 		margin: 8vh auto;
 	}
+
+	.h{
+		font-size: 150%;
+	}
+
+	.p{
+		font-size: 90%;
+		line-height: 130%;
+	}
 }
+
+/* EVERYTHING LARGER THAN MOBILE */
+@media screen and (min-width: 699px){
+	.tile{
+	width: 700px;
+	max-width: 80%;
+	text-align: center;
+	margin: 12vh auto;
+	}
+	
+	.h{
+	font-size: 200%;
+	font-weight: bold;
+	}
+
+	.p{
+	font-size: 130%;
+	line-height: 170%;
+	}
+}
+
+
+
+
+
 
