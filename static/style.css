@@ -17,14 +17,21 @@
 	margin: 15px auto;
 }
 
-.h{
+.tile h1 {
 font-family: "Oswald";
 font-size: 200%;
 color: #FA6803;
 }
 
-.p{
-margin-top:2%;
+.tile h2 {
+font-family: "Oswald";
+font-size: 180%;
+color: #FA6803;
+}
+
+.tile p{
+margin-top:5vh;
+margin-bottom:3vh;
 font-family: "Roboto Slab";
 font-size: 100%;
 color: #000000;
@@ -59,11 +66,11 @@ line-height: 170%;
 		margin: 8vh auto;
 	}
 
-	.h{
+	.tile h1{
 		font-size: 150%;
 	}
 
-	.p{
+	.tile p{
 		font-size: 90%;
 		line-height: 130%;
 	}
@@ -78,12 +85,12 @@ line-height: 170%;
 	margin: 12vh auto;
 	}
 	
-	.h{
+	.tile h1{
 	font-size: 200%;
 	font-weight: bold;
 	}
 
-	.p{
+	.tile p{
 	font-size: 130%;
 	line-height: 170%;
 	}
