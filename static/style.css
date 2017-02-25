@@ -13,6 +13,34 @@
   margin-right: auto;
   margin-left: auto;
 }
+@media (min-width: 1px) and (max-width: 767px) {
+
+		h1{
+			font-size: 300% !important;
+		}
+
+		h2{
+			font-size: 200% !important;
+		}
+
+		p{
+
+			line-height: 120% !important;
+			font-size:100% !important; 
+		}
+
+
+		li {
+			line-height: 120% !important;
+			font-size:100% !important;
+		}
+
+		.icon {
+			font-size: 0.3em !important;
+		}
+
+
+}
 @media (min-width: 768px) {
   .container {
     width: 600px;
@@ -80,7 +108,6 @@
 #jake-image {
 	display:block;
 	width:20%;
-	min-width: 200px;
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
