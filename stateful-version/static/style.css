@@ -1,11 +1,18 @@
-/* body{
-	height: 100vh;
-	background: -webkit-linear-gradient(-45deg, #FEC142,  #FF014A); 
-    background: -o-linear-gradient(-45deg, #FEC142,  #FF014A); 
-    background: -moz-linear-gradient(-45deg, #FEC142,  #FF014A); 
-    background: linear-gradient(-45deg, #FEC142,  #FF014A);
+body{
+	background-color: #1e1e1e;
 }
-*/
+
+h1 {
+	font-family: monospace;
+	color:#d7d7d7;
+}
+
+h4 {
+	font-family: monospace;
+	color:#d7d7d7;
+}
+
+/*
 .container {
 
   padding-right: 15px;
@@ -129,7 +136,7 @@ h2{
 }
 
 p{
-	/*letter-spacing: 1px;*/
+
 	color:#777;
 	line-height: 130%;
 	font-size:170%;
@@ -180,3 +187,4 @@ li {
     transition: opacity .4s;
     transition: margin .4s;
     }
+   */
