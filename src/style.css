@@ -1,0 +1,134 @@
+html{
+    height:100vh;
+    width:100%;
+
+}
+
+#landing {
+    min-height:100vh;
+    width:100%;
+}
+
+.background-blue{
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.background-software{
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(135deg, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(135deg, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+#title-container {
+
+    padding-top:40vh;
+    margin-left:20%;
+}
+
+ h1{
+    font-size:400%;
+    font-weight:normal;
+    font-family:"Josefin Sans", sans-serif;
+    color:white;
+}
+
+#links-container {
+    margin-top:10vh;
+    margin-left:10%;
+}
+
+
+.link{
+    text-decoration:none;
+    margin-left:2%;
+    font-weight: bolder;
+    font-family:"Open Sans", sans-serif;
+    color:white;
+    opacity:0.6;
+    font-size:200%;
+}
+
+.link:hover{
+    opacity:1.0;
+    cursor:pointer;
+}
+
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 5px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out-hovered:after {
+	width: 100%;
+	background: white;
+}
+
+
+.sliding-left-right {
+display: inline-block;
+}
+.sliding-left-right:after {
+content: '';
+display: block;
+height: 5px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+.sliding-left-right-hovered:after {
+width: 100%;
+background: white;
+}
+
+
+
+.article-title {
+    font-size:400%;
+    font-weight:normal;
+    font-family:"Josefin Sans", sans-serif;
+    color:white;
+
+    margin-top:10vh;
+}
+
+.article-subtitle{
+    font-size:200%;
+    font-weight:normal;
+    font-family:"Josefin Sans", sans-serif;
+    color:white;
+
+    margin-top:10vh;
+}
+
+.article-paragraph {
+    font-size:150%;
+    font-weight:normal;
+    font-family:"Open Sans", sans-serif;
+    color:white;
+
+    text-align: justify;
+    text-justify: inter-word;
+
+    width:80%;
+    max-width:1000px;
+}
+
+.space-20-vh {
+    height:20vh;
+}
