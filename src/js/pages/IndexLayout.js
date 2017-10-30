@@ -7,7 +7,7 @@ export default class IndexLayout extends React.Component {
         return(
         <div id="landing" class="background-blue">
             <div id="title-container">
-                <h1 class="sliding-middle-out">Stjepan Brkić</h1>
+                <h1 class="sliding-middle-out">whiteShtef</h1>
             </div>
             <div id="links-container">
                 <Link class="link" to='/software'>Software</Link>

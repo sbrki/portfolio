@@ -5,7 +5,8 @@ export default class AboutLayout extends React.Component {
         return(
         <div id="landing" class="background-blue">
             <div id="title-container">
-                <h1 class="sliding-middle-out">ABOUT ME</h1>
+                    <h1 class="sliding-middle-out">ABOUT ME</h1>
+                    <h1>Yo this is work in progress, yo.</h1>
             </div>
         </div>
         );
